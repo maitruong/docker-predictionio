@@ -4,12 +4,12 @@ PredictionIO is an open-source Machine Learning server for developers and data s
 This container uses Apache Spark (1.6.3), HBase (1.2.6) and Elasticsearch(1.7.6). The PredictionIO version is the latest stable version 0.11.0.
 ####Use it interactively for development:
 1. First, do either i) or ii) below
-  1. (faster; stable version) obtain docker image from public docker registry:
+  i. (faster; stable version) obtain docker image from public docker registry:
 
     ```Bash
     $ docker run -it -p 8000:8000 maitruong/predictionio /bin/bash
     ```
-  2. (slower) build docker image from local Dockerfile: cd to the path containing the Dockerfile, then:
+  ii. (slower) build docker image from local Dockerfile: cd to the path containing the Dockerfile, then:
     
     ```Bash
     $ docker build -t predictionio .
